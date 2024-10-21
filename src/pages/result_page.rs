@@ -48,7 +48,7 @@ pub fn ResultPage() -> impl IntoView {
                 <div class="my-14">
                 </div>
 
-                <Button1 text="Continue" url="#"/>
+                <Button1 text="Continue" url="/"/>
             </div>
         </div>
     }
