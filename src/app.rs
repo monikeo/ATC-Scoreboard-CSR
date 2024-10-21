@@ -38,8 +38,8 @@ pub fn App() -> impl IntoView {
             <main class="font-display">
                 <OuterContainer>
                     <Routes>
-                        <Route path="" view=Demo />
-                        <Route path="/first_page" view=FirstPage />
+                        <Route path="/test" view=Demo />
+                        <Route path="" view=FirstPage />
                         <Route path="/vs/:round/:subround/:red/:blue" view=VsPage />
                         <Route path="/battle_timer/:round/:subround/:red/:blue" view=BattleTimerPage />
                         <Route path="/result/:round/:subround/:color/:name" view=ResultPage />
